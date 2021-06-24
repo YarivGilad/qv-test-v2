@@ -19,7 +19,7 @@ const HOST = '0.0.0.0';
 //   QOVERY_DATABASE_MY_MONGO_DB_PORT : DB_PORT
 // } = process.env;
 let { QOVERY_DATABASE_MY_MONGO_DB_CONNECTION_URI : DB_URI = `mongodb://localhost:27017/crud-demo` } = process.env;
-log.v('DB_URI: ' + DB_URI)
+log.v('DB_URI: ' + DB_URI);
 
 
 const app = express();
